@@ -1,5 +1,5 @@
 
-var todayDate = moment().format('August 31st 2021, 2:18:45 pm');
+var todayDate = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentDay").html(todayDate);
 
 $(document).ready(function () {
